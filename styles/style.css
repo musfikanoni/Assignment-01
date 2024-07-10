@@ -23,3 +23,27 @@ nav a {
     padding: 10px 12px;
     border-radius: 5px;
 }
+.hero-section {
+    height: 600px;
+    max-width: 1920px;
+    background-image: url(/images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.hero-section h1 {
+    text-align: center;
+}
+.hero-btn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 22px;
+    border: none;
+    color: #FFFFFF;
+    background-color: blueviolet;
+    border-radius: 7px;
+}
