@@ -43,15 +43,20 @@ nav a {
     color: rgb(84, 84, 84);
     font-weight: 700;
     font-size: 16px;
+    text-align: center;
 }
 .hero-btn {
-    font-size: 18px;
+    margin-top: 30px;
+}
+.hero-btn a {
+    font-size: 20px;
     font-weight: 600;
     padding: 15px 22px;
     border: none;
     color: #FFFFFF;
     background-color: blueviolet;
     border-radius: 7px;
+    text-decoration: none;
 }
 /* header end */
 /* Why-dev section start */
@@ -238,3 +243,20 @@ nav a {
     margin-top: 20px;
 }
 /* support section end */
+/* footer start  */
+footer {
+    background-color: blueviolet;
+    margin-top: 70px;
+}
+.all-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+.all-footer h4 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+/* footer end */
