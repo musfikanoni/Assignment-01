@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Azeret Mono", monospace;
 }
+/* header start */
 nav {
     display: flex;
     align-items: center;
@@ -26,17 +27,22 @@ nav a {
 .hero-section {
     height: 600px;
     max-width: 1920px;
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
 }
 .hero-section h1 {
     text-align: center;
+    font-weight: 700;
+}
+.hero-section p {
+    color: rgb(84, 84, 84);
+    font-weight: 700;
+    font-size: 16px;
 }
 .hero-btn {
     font-size: 18px;
@@ -46,4 +52,75 @@ nav a {
     color: #FFFFFF;
     background-color: blueviolet;
     border-radius: 7px;
+}
+/* header end */
+/* Why-dev section start */
+.why-dev {
+    padding: 25px 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.all-dev {
+    background-color: rgb(232, 227, 237);
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.why-dev-text {
+    padding: 70px 50px;
+}
+.why-dev-text h2 {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+}
+.dev {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 336px;
+    width: 880px;
+    padding: 0px 50px;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+.dev-bg {
+    background: linear-gradient(to right, #f3f3f5 0%, rgb(232, 227, 237) 100%);
+}
+.dev-bg1 {
+    background: linear-gradient(to left, #f3f3f5 0%, rgb(232, 227, 237) 100%);
+}
+.dev-1 {
+    text-align: left;
+    width: 447px;
+}
+.dev-2 {
+    text-align: left;
+    width: 50%;
+    padding-right: 100px;
+}
+.all-h3 {
+    color: #0d1321c3;
+    font-size: 24px;
+    font-weight: bold;
+}
+.all-p {
+    font-size: 16px;
+    color: #494c52;
+    font-weight: 400;
+}
+.primary-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d1321c3;
+    padding: 12px 20px;
+    border: 1px solid #494c52;
+    background-color: transparent;
+}
+/* Why-dev section end*/
+.inspire-text {
+    text-align: center;
 }
