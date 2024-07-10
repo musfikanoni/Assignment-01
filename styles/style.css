@@ -121,4 +121,68 @@ nav a {
     background-color: transparent;
 }
 /* Why-dev section end*/
-
+/* inapiration section start */
+.inspire-text {
+    text-align: center;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 50px;
+}
+.v-border {
+    border: 1px solid #0d1321d2;
+    padding: 50px;
+    border-radius: 10px;
+}
+.video iframe {
+    border-radius: 10px;
+    width: 1025px;
+    height: 550px;
+    
+}
+.primary-text {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+/* inapiration section start */
+/* current target section start */
+.cart {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 50px;
+}
+.cart-div {
+    height: 299px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 30px 30px;
+    background: rgb(81, 81, 70);
+}
+.cart-div h4 {
+    color: #0D1321;
+    font-size: 24px;
+    font-size: 800;
+}
+.cart-div a {
+    color: #0d1321c3;
+    font-weight: 700;
+    font-size: 16px;
+}
+.current-p {
+    text-align: center;
+}
+.cart-bg-1 {
+    background-color: rgb(247, 212, 217);
+}
+.cart-bg-2 {
+    background-color: rgb(200, 212, 244);
+}
+.cart-bg-3 {
+    background-color: rgb(229, 208, 249);
+}
+/* current target section end */
