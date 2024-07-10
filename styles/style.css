@@ -1,1 +1,25 @@
-
+body {
+    margin: 0;
+    font-family: "Azeret Mono", monospace;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 200px;
+    background-color: blueviolet;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.download-btn {
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: blueviolet;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
